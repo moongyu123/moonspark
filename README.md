@@ -1,4 +1,9 @@
 # moonspark
+### 내용
++ spark streaming 처리
+    + FS to FS
+    + FS to kafka producer
+
 ### 선행진행
 + 제약사항 : MacOS, jdk8+
 + spark
@@ -20,7 +25,6 @@
     + src/main/resources/in_data 에 csv파일저장 
     + maven package -> jar 생성
     + sparksubmit.sh실행 ( 로컬 standalon spark사용) eg. ./sparksubmit.sh (listings|reviews|or null)
-
 
 
 + [검증] kafka topic consumer 확인
