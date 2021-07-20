@@ -77,6 +77,5 @@ case class Listings(
                   calculated_host_listings_count_entire_homes:String,
                   calculated_host_listings_count_private_rooms:String,
                   calculated_host_listings_count_shared_rooms:String,
-                  reviews_per_month:String,
-                  error_string:String
+                  reviews_per_month:String
                    )
