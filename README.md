@@ -26,7 +26,6 @@
     + maven package -> jar 생성
     + sparksubmit.sh실행 ( 로컬 standalon spark사용) eg. ./sparksubmit.sh (listings|reviews|or null)
 
-
 + [검증] kafka topic consumer 확인
     + ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic ${topic_name} --from-beginning
     + eg. ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic tp-reviews --from-beginning
@@ -36,5 +35,6 @@
 
 ---
 #### reference
-+ https://spark.apache.org/docs/2.1.1/structured-streaming-programming-guide.html
++spark streaming: https://spark.apache.org/docs/2.1.1/structured-streaming-programming-guide.html
++kafka stream: https://docs.confluent.io/platform/current/streams/code-examples.html
 
